@@ -1,0 +1,37 @@
+{
+  "fixture_id": "gateway_village_swan_creek",
+  "community_name": "Gateway Village at Swan Creek",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 650,
+      "sf_max": 840,
+      "rent_min": 1039,
+      "rent_max": 1199,
+      "available": 5,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 1177,
+      "sf_max": 1278,
+      "rent_min": 1499,
+      "rent_max": 1587,
+      "available": 5,
+      "coming_soon": 0
+    },
+    {
+      "beds": 3,
+      "sf_min": 1443,
+      "sf_max": 1443,
+      "rent_min": 1724,
+      "rent_max": 1774,
+      "available": 3,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": null,
+  "raw_concession_text": "One Bedrooms Starting At $983 & Two Bedrooms Starting At $1,340. Limited Time Only. Call us for Details! | (top banner) Furnished Homes & Short-Term Rentals Now Available! Call For Details",
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Read the floor-plans index and all 6 plan pages, enumerating each per-unit table. Plan-card badges undercount the tables and were ignored (Elm's card says 2 units but lists 3; Sycamore's says 1 but lists 2). Rent is base/asking; a 'total monthly' figure appears only behind an opt-in cost calculator. SF is plan-level: unit #3219 lists 1,320 sf as a corner apartment against its plan's 1,177 sf. Concession null: the site-wide special is a starting-price promo and the top banner is a furnished/short-term notice; neither converts to weeks."
+}

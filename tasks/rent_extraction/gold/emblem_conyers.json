@@ -1,0 +1,28 @@
+{
+  "fixture_id": "emblem_conyers",
+  "community_name": "Emblem Conyers",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 774,
+      "sf_max": 774,
+      "rent_min": 1382,
+      "rent_max": 1472,
+      "available": 12,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 1099,
+      "sf_max": 1194,
+      "rent_min": 1695,
+      "rent_max": 1815,
+      "available": 4,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": null,
+  "raw_concession_text": "Your Key to 6 Weeks FREE. Tour a 1-Bedroom & Apply Within 24 Hours: App + Admin Fees Waived AND 6 Weeks FREE when you move in by 9/15!",
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Every unit enumerated from the map view floor by floor (3+4+6+3 = 16), reconciling to the floor badges. A2 1bd/774 sf: 12 units $1,382-$1,472; B1 2bd/1,099 sf: 1 unit $1,695; B2 2bd/1,194 sf: 3 units $1,740-$1,815. Concession null is a convention call: the banner offers 6 weeks free but gates it on 'Tour a 1-Bedroom', and the convention nulls an offer gated on an action involving a named bed type. A reasonable labeller could record 6."
+}

@@ -1,0 +1,37 @@
+{
+  "fixture_id": "mural_at_stovehouse",
+  "community_name": "Mural at Stovehouse",
+  "units": [
+    {
+      "beds": 0,
+      "sf_min": 450,
+      "sf_max": 562,
+      "rent_min": 979,
+      "rent_max": 979,
+      "available": 13,
+      "coming_soon": 0
+    },
+    {
+      "beds": 1,
+      "sf_min": 580,
+      "sf_max": 851,
+      "rent_min": 949,
+      "rent_max": 1450,
+      "available": 43,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 1080,
+      "sf_max": 1080,
+      "rent_min": 1699,
+      "rent_max": 1699,
+      "available": 4,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": 12,
+  "raw_concession_text": "Love Where You Live! Contact us today to learn how you can receive UP TO THREE MONTHS BASE RENT FREE on select available floor plans. Plus, if you lease within 72 hours of touring, we will waive your $200 administrative fee. *Limited Time Offer and Subject to Change* *Terms and Conditions Apply*",
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Homepage, floor-plans index and all 10 per-plan unit tables read; static and headless renders agreed. Per-unit counts matched the 'N Available' badges (60 listed units). Rents are BASE rent, not the 'Total Monthly Leasing Price' the site leads with (base + $113.36 of mandatory fees). Future move-in dates count. Studio plan 'Satin' (562 sf) is Call for Pricing with no units: 0 available, but its SF still widens the studio band to 450-562. Concession normalised to 12 weeks on review (labeller had proposed null): 'up to three months base rent free on select available floor plans' is an unspecified-subset offer, which records N. The waived admin fee is a fee waiver, not a concession."
+}

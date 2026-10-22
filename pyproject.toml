@@ -1,0 +1,20 @@
+[project]
+name = "llm-evals"
+version = "0.1.0"
+description = "Accuracy-and-cost evaluation of LLM APIs on two real-estate data tasks"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["llm_evals"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]  # long literal strings in fixture specs and report templates
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

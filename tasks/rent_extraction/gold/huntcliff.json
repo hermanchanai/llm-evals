@@ -1,0 +1,37 @@
+{
+  "fixture_id": "huntcliff",
+  "community_name": "Huntcliff",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 674,
+      "sf_max": 674,
+      "rent_min": 1097,
+      "rent_max": 1152,
+      "available": 2,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 906,
+      "sf_max": 977,
+      "rent_min": 1299,
+      "rent_max": 1503,
+      "available": 5,
+      "coming_soon": 0
+    },
+    {
+      "beds": 3,
+      "sf_min": 1130,
+      "sf_max": 1130,
+      "rent_min": 1984,
+      "rent_max": 1994,
+      "available": 2,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": null,
+  "raw_concession_text": null,
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Five listings: Ascot 1bd/674 $1,097-$1,152 x2; Breaker 2bd/906 $1,299-$1,309 x3; Cambridge 2bd/977 $1,468-$1,503 x2; Dexter 3bd/1,130 $1,984-$1,994 x2; plus an affordable-program listing, 1 bed 674-1,130 sqft, 'Please Call', no price, no count. That listing is excluded from the 1bd SF band (judgement call): it is a program bucket spanning an SF range, not a floor plan, so its 1,130 sf_max would describe a unit no renter can identify. No specials."
+}

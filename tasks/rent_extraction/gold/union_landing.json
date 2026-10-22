@@ -1,0 +1,37 @@
+{
+  "fixture_id": "union_landing",
+  "community_name": "Union Landing Apartments",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 841,
+      "sf_max": 841,
+      "rent_min": 1216,
+      "rent_max": null,
+      "available": null,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 1068,
+      "sf_max": 1068,
+      "rent_min": 1453,
+      "rent_max": null,
+      "available": null,
+      "coming_soon": 0
+    },
+    {
+      "beds": 3,
+      "sf_min": 1240,
+      "sf_max": 1240,
+      "rent_min": 1673,
+      "rent_max": null,
+      "available": null,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": null,
+  "raw_concession_text": null,
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Three plans with plan-level prices: 1bd 841 sf $1,216, 2bd 1,068 sf $1,453, 3bd 1,240 sf $1,673. Availability is ungraded on purpose: the page directs availability questions to a contact form, the availability search returns 'No floorplans found', and every plan offers only Contact Us, so a renter cannot determine it (null, not 0). rent_max null: only one price per plan is published."
+}

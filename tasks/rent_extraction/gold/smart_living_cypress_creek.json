@@ -1,0 +1,37 @@
+{
+  "fixture_id": "smart_living_cypress_creek",
+  "community_name": "Smart Living at Cypress Creek",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 631,
+      "sf_max": 768,
+      "rent_min": 1050,
+      "rent_max": 1150,
+      "available": 20,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 1052,
+      "sf_max": 1231,
+      "rent_min": 1475,
+      "rent_max": 1575,
+      "available": 24,
+      "coming_soon": 0
+    },
+    {
+      "beds": 3,
+      "sf_min": 1211,
+      "sf_max": 1652,
+      "rent_min": 1725,
+      "rent_max": 1725,
+      "available": 1,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": 4,
+  "raw_concession_text": "receive ONE MONTH FREE on select 1- and 2-bedroom apartment homes with a 13-month lease",
+  "label_method": "human_live_site_read",
+  "labeling_notes": "8 plans. The unit list and the desktop badge both cap at 10; a mobile-only block on each card carries the uncapped count (Monterey 14, Montecito 12, Cambria 12, Silverado 6, Calistoga 1), and the labels use it. Three plans read 'Contact for Availability' with no price and no count (Sonoma 2bd/1,231, Rutherford 3bd/1,230, Napa 3bd/1,652): their SF is in the band, their rent and availability are not, so 2bd is 1,052-1,231 and 3bd is 1,211-1,652. Label history, disclosed: the concession was first labelled null from the floor-plans grid alone, then corrected to 4 when the banner elsewhere on the site was found ('ONE MONTH FREE on select 1- and 2-bedroom apartment homes'). The SF band was briefly narrowed to exclude the Contact plans and then reverted, because the include band is the written convention and five other labels in the corpus follow it."
+}

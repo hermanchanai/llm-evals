@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": ["units", "concession_weeks"],
+  "properties": {
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["beds", "sf_min", "sf_max", "rent_min", "rent_max", "available", "coming_soon"],
+        "properties": {
+          "beds":        {"type": "integer", "minimum": 0, "maximum": 6},
+          "sf_min":      {"type": ["integer", "null"]},
+          "sf_max":      {"type": ["integer", "null"]},
+          "rent_min":    {"type": ["integer", "null"]},
+          "rent_max":    {"type": ["integer", "null"]},
+          "available":   {"type": ["integer", "null"]},
+          "coming_soon": {"type": "integer"}
+        }
+      }
+    },
+    "concession_weeks": {"type": ["integer", "null"]}
+  }
+}

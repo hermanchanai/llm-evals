@@ -1,0 +1,55 @@
+{
+  "fixture_id": "northbend",
+  "community_name": "Northbend",
+  "units": [
+    {
+      "beds": 0,
+      "sf_min": 407,
+      "sf_max": 535,
+      "rent_min": 1422,
+      "rent_max": 1422,
+      "available": 2,
+      "coming_soon": 0
+    },
+    {
+      "beds": 1,
+      "sf_min": 535,
+      "sf_max": 1092,
+      "rent_min": 1663,
+      "rent_max": 1800,
+      "available": 8,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 1052,
+      "sf_max": 1339,
+      "rent_min": 2166,
+      "rent_max": 2268,
+      "available": 4,
+      "coming_soon": 0
+    },
+    {
+      "beds": 3,
+      "sf_min": 1393,
+      "sf_max": 1508,
+      "rent_min": null,
+      "rent_max": null,
+      "available": 0,
+      "coming_soon": 0
+    },
+    {
+      "beds": 4,
+      "sf_min": 1510,
+      "sf_max": 1510,
+      "rent_min": null,
+      "rent_max": null,
+      "available": 0,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": 8,
+  "raw_concession_text": "Move In by 8/31 & Receive 8 Weeks Free! Move In by 10/31 & Receive 6 Weeks Free! *Must sign a 14+month lease to qualify for rent specials* [also, not concessions: 'Apply Within 48 Hours of Initial Visit to Receive 1/2 Off Application & Administration Fees!' and 'Apply Same Day to Receive $250 Gift Card at Move In!']",
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Read from the floor-plans unit table across all 4 floor tabs (1+4+3+6 = 14 listed units); identical to a read the previous evening. available = listed units per bed; 'Only N left!' badges not used. SF band = the full advertised plan set per bed, wider than the priced plans. Excluded the three Live/Work plans (W, X, Y), which the site segregates under its own 'Live/Work Units' filter as office or business space; including X would widen studio sf_max 535 -> 1,079. 3BR and 4BR plans are all 'Contact Us': 0 available, rents null. Unit #2092 is listed at '1 sq. ft.'; plan-level 1,072 sf used. Concession 8: the live site-wide tier for a move-in now; the 14+ month lease term is a condition, not a qualifier."
+}

@@ -1,0 +1,37 @@
+{
+  "fixture_id": "the_kelvin",
+  "community_name": "The Kelvin",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 672,
+      "sf_max": 791,
+      "rent_min": 1000,
+      "rent_max": 1154,
+      "available": 22,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 1031,
+      "sf_max": 1136,
+      "rent_min": 1260,
+      "rent_max": 1467,
+      "available": 10,
+      "coming_soon": 0
+    },
+    {
+      "beds": 3,
+      "sf_min": 1390,
+      "sf_max": 1390,
+      "rent_min": 1704,
+      "rent_max": 1734,
+      "available": 2,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": 4,
+  "raw_concession_text": "Your New Home Starts Here!! Luxury 1 Bedrooms Starting at Just $999! Move Now & Receive 1 Month FREE on Select Apartment Homes! ... *Offer valid on select apartment homes for a limited time. Restrictions apply.",
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Read the homepage and floor plans (7 advertised plans), then counted every listed unit on all 7 availability pages: 22 1BR + 10 2BR + 2 3BR = 34, including future move-ins. Each unit shows a price range, which is lease-term pricing: spreads vary per unit and the low end always equals the plan card's 'Starting at' price, so the low end is taken as base rent. Cross-checked against the structured unit data in the page markup. Concession 4: a site-wide '1 Month FREE' modal, qualified 'on Select Apartment Homes' (unspecified subset). The banner's '$999' headline is a marketing round-down; the lowest listed 1BR is $1,000."
+}

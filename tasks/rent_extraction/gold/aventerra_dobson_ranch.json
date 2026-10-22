@@ -1,0 +1,28 @@
+{
+  "fixture_id": "aventerra_dobson_ranch",
+  "community_name": "Aventerra at Dobson Ranch",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 680,
+      "sf_max": 680,
+      "rent_min": null,
+      "rent_max": null,
+      "available": null,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 860,
+      "sf_max": 950,
+      "rent_min": null,
+      "rent_max": null,
+      "available": null,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": 6,
+  "raw_concession_text": "Special Offer: Enjoy up to six weeks free on select units. Restrictions apply, see agent for details.",
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Rents are deliberately null: the site publishes no price to a renter anywhere (each unit shows only number, SF and date, with a 'get a quote' prompt). Availability is also null: the unit list hard-caps at 6 rows per plan with no 'show more' control and the badge reads 'available units: 5+', so every plan showing exactly 6 is the cap, not the count. First labelled 6/12, corrected to null. SF confirmed (680; 860 and 950). Concession 6: 'up to six weeks free on select units' is an unspecified subset, which records N; 'up to' is ceiling language, not a reason to null."
+}

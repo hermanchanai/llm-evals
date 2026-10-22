@@ -1,0 +1,4 @@
+# Runtime. Only needed for live provider calls; mock, replay and dry-run use the standard library.
+python-dotenv==1.0.1
+anthropic==1.7.0
+openai==3.16.1

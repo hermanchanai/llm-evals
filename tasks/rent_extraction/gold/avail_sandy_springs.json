@@ -1,0 +1,28 @@
+{
+  "fixture_id": "avail_sandy_springs",
+  "community_name": "Avail Sandy Springs",
+  "units": [
+    {
+      "beds": 1,
+      "sf_min": 520,
+      "sf_max": 520,
+      "rent_min": 1320,
+      "rent_max": 1320,
+      "available": 1,
+      "coming_soon": 0
+    },
+    {
+      "beds": 2,
+      "sf_min": 733,
+      "sf_max": 733,
+      "rent_min": 1356,
+      "rent_max": 1770,
+      "available": 17,
+      "coming_soon": 0
+    }
+  ],
+  "concession_weeks": null,
+  "raw_concession_text": null,
+  "label_method": "human_live_site_read",
+  "labeling_notes": "Clean per-unit tables. A1 1bd: one unit, 520 sf, $1,320. B1 2bd: 17 units, all 733 sf, $1,356-$1,770. The site's own plan filter lists exactly A1 and B1, so no plan is hidden, and the per-plan counts differ (1 vs 17), so this is not a display cap. No concession banner."
+}
